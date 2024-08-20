@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Jogos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top"  >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#inicio"><h1>Box Jogos</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Procurar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio">
+        <center>
+            <div class="carousel carousel-fade slide " data-bs-ride="carousel" id="carouselControl">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <a href="#">
+                                <div class="card">
+                                    <img src="img/carousel/crash.png" alt="1" class="img-fluid">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="col-md-3">
+                            <a href="#">
+                                <div class="card">
+                                    <img src="img/carousel/abe.png" alt="2" class="img-fluid">
+                                </div>
+                            </a>    
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="col-md-3">
+                            <a href="#">
+                                <div class="card">
+                                    <img src="img/carousel/resident.png" alt="3" class="img-fluid">
+                                </div>
+                            </a>    
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="col-md-3">
+                            <a href="#">
+                                <div class="card">
+                                    <img src="img/carousel/tomb.png" alt="4" class="img-fluid">
+                                </div>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carouselControl" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carouselControl" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </center>
+    </section>
+
+    <section id="jogos">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3" id="maisJogadosTitulo">
+                <h3>Mais Jogados</h3>
+                <div class="row g-5">
+                    <div class="col-lg-8 col-sm-12" id="maisJogados">
+                        <div class="card">
+                            <img src="img/acao/dbd.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12" id="maisJogados">
+                        <div class="card">
+                            <img src="img/maisjogados/goat.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12" id="maisJogados">
+                        <div class="card">
+                            <img src="img/maisjogados/zelda.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12" id="maisJogados">
+                        <div class="card">
+                            <img src="img/maisjogados/uncharted.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-7" id="disponiveis">
+                <h1>Jogos Disponiveis</h1>
+                <nav class="nav nav-tabs">
+                    <button data-bs-toggle="tab" data-bs-target="#acao" class="nav-link active" type="button">Ação</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aventura" class="nav-link" type="button">Aventura</button>
+                    <button data-bs-toggle="tab" data-bs-target="#simulacao"class="nav-link" type="button">Simulação</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="acao">
+                        <div class="row g-5">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card" >
+                                    <img src="img/acao/plague.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/control.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/re7.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/bunker.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/dbd.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/dead space.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/injustice.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="tab-pane" id="aventura">
+                        <div class="row g-5">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card" >
+                                    <img src="img/acao/plague.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/control.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/re7.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/bunker.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/dbd.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/dead space.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/injustice.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="simulacao">
+                        <div class="row g-5">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card" >
+                                    <img src="img/acao/plague.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/control.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/re7.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/bunker.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/dbd.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/dead space.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="img/acao/injustice.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-2" id="logos" >
+                <center>
+                    <a href="#"><img src="img/logo/xbox.png" alt=""></a>
+                    <a href="#"><img src="img/logo/play.png" alt=""></a>
+                    <a href="#"><img src="img/logo/nintendo.png" alt=""></a>
+                    <a href="#"><img src="img/logo/steam.png" alt=""></a>
+                </center>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var items = document.querySelectorAll('.carousel .carousel-item');
+        items.forEach((e)=>{
+            const slide = 4;
+            let next = e.nextElementSibling;
+            for(var i=0;i<slide;i++){
+                if(!next){
+                    next = items[0]
+                }
+                let clonechild = next.cloneNode(true)
+                e.appendChild(clonechild.children[0])
+                next = next.nextElementSibling
+            }
+        })
+    </script>
+    
+</body>
+</html>
